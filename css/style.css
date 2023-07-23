@@ -1,0 +1,117 @@
+ 
+.sec1-div{
+    height: 800px;
+    background-image: url(../images/airplane.jpg);
+    background-size: 1900px;
+}
+    
+
+header{
+    display:inline;
+    margin-bottom: 48px;
+   
+    
+}
+
+img{
+    display: flex;
+    width: 80px;
+    height: 50px;
+    margin-top: 48px;
+}
+nav{
+    display: inline-block;
+}
+
+
+
+ul{
+    display: inline-block
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    margin-top: 48px;
+    margin-right: 50px;
+    margin-left: 90px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+
+    
+
+.sec-1{
+    margin-top: 100px;
+    
+}
+
+.container{
+    width: 1277px;
+    margin: 0 auto;
+}
+
+h2{
+    width: 627.327px;
+    height: 260px;
+    color: #FFF;
+    
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130px; /* 108.333% */
+    text-transform: uppercase;
+}
+
+.reddiv{
+    display: flex;
+    width: 200px;
+    height: 76px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 211px;
+    background: var(--main-red, #c45a8a9b);
+    
+}
+
+.reddiv:hover{
+   background-color: pink;
+   border: 2px solid hotpink;
+}
+
+footer{
+    background-color: #c45a8a9c;
+    height: 136px
+   
+}
+
+
+
+.a2{
+    display: inline-block;
+    margin: 58px 25px 50px 25px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;  
+}
+
+.fa-brads{
+    margin: 0 22 0 720;
+   
+}
