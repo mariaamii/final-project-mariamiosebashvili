@@ -1,8 +1,9 @@
  
 .sec1-div{
     height: 800px;
-    background-image: url(../images/airplane.jpg);
-    background-size: 1900px;
+    background-image: url(../images/airplane3.jpg.sb-4f4501b5-cK8GlM
+    );
+    background-size: 1500px;
 }
     
 
@@ -52,6 +53,7 @@ a{
 .sec-1{
     margin-top: 100px;
     
+    
 }
 
 .container{
@@ -60,14 +62,14 @@ a{
 }
 
 h2{
-    width: 627.327px;
+    width: 600px;
     height: 260px;
     color: #FFF;
     
     font-family: Roboto;
     font-size: 80px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 130px; /* 108.333% */
     text-transform: uppercase;
 }
@@ -82,13 +84,13 @@ h2{
     gap: 10px;
     flex-shrink: 0;
     border-radius: 211px;
-    background: var(--main-red, #c45a8a9b);
+    background: var(--main-red, #c7ca0bd0);
     
 }
 
 .reddiv:hover{
-   background-color: pink;
-   border: 2px solid hotpink;
+   background-color: rgba(232, 243, 12, 0.658);
+   border: 2px solid rgba(27, 42, 201, 0.981);
 }
 
 footer{
@@ -115,3 +117,74 @@ footer{
     margin: 0 22 0 720;
    
 }
+
+/* secrion2 */
+
+.sec-2{
+    /* background: linear-gradient(180deg, #0a0253d6 0%, rgba(0, 190, 172, 0.00) 100%); */
+    background-color:  hsl(221, 89%, 7%);;
+   background-image:url(../images/back-img.png);
+   background-repeat: no-repeat;
+  
+    ;
+}
+
+
+.h3div{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    
+    /* display: flex; */
+    width: 615px;
+    height: 52px;
+    /* flex-direction: column;
+    justify-content: center; */
+    flex-shrink: 0;
+    color: var(--blue-background, #030d18);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 75px */
+    /* margin-left: 300px; */
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sec-2img{
+    margin-top: 100px;
+    /* display: inline-block; */
+    /* margin-left: 31px; */
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.pdiv{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 500px;
+    /* height: 100px; */
+    height: 1300px;
+    margin-top: 60px;
+    font-family: "ALK Sanet", sans-serif;
+   
+}
+
+
+    
+
+
