@@ -8,6 +8,7 @@
     
 
 header{
+
     display:inline;
     margin-bottom: 48px;
    
@@ -33,12 +34,18 @@ ul{
 li{
     display: inline-block;
 }
+.imgdiv1{
+display: flex;
+justify-content: flex-start;
+}
+
+
 
 a{
     display: inline-block;
     margin-top: 48px;
     margin-right: 50px;
-    margin-left: 90px;
+     margin-left: 90px; 
     color: #FFF;
     font-family: DM Sans;
     font-size: 18px;
@@ -184,7 +191,95 @@ p{
    
 }
 
+.back-colourdiv{
+    background-color:  hsl(221, 89%, 7%);
+}
+
+/* section3 */
+
+
+.sec-3{
+    background-image: url(../images/back-img1.png);
+    height: 1200px;
+   
+}    
+
+.h4div{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+        width: 1000px;
+        height: 142.643px;
+        flex-shrink: 0;
+        color: var(--colors-white, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+         /* H3 */
+        font-family: DM Sans;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 119.048% */
+        margin-top: 100px;
+        
+    }
+
+    .mshobeli-div{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .background-div{
+     background-image: url(../images/young\ traveller.jpg);
+    width: 627px;
+    height: 414px;
+    margin-top: 100px;
+    }
+
+    .card{
+        
+    
+    }
+
+    .cardimg{
+        width: 233px;
+        height: 151px;
+        flex-shrink: 0; 
+        display: inline-block;
+        vertical-align: text-top;
+    }
 
     
+    
 
+    h6{
+        width: 233.143px;
+        height: 35.661px;
+        flex-shrink: 0;
+        text-align: start;
+        display: inline;
+        vertical-align: text-bottom;
+        margin-bottom: 500px;
+    }
 
+    .cardp{
+        width: 300px;
+        height: 120px;
+        flex-shrink: 0;color: var(--colors-white, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Paragraph Light */
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300px;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: 0.5px;
+        margin-left: 50px;
+        display: inline-block;
+        vertical-align: text-bottom;
+    
+    }
