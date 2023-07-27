@@ -305,6 +305,8 @@ h4{
         height: 35.661px;
         flex-shrink: 0;
         
+        margin-left: 20px;
+        
         /* text-align: start; */
         /* display: inline; */
         /* vertical-align: text-bottom; */
@@ -326,7 +328,7 @@ h4{
         font-weight: 300px;
         line-height: 28px; /* 155.556% */
         letter-spacing: 0.5px;
-        /* margin-left: 50px; */
+        margin-left: 20px;
         /* display: inline-block; */
         /* vertical-align: text-bottom; */
        
@@ -340,3 +342,18 @@ h4{
            margin-left: 700px;
     }
 
+    /* section4 */
+
+    .sec-4{
+        height: 771px;
+        background-image: url(../images/sec-4\ back.png);
+        background-color: rgb(4, 4, 46);
+    }
+    .sec-4img{
+        
+        width: 400px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        
+    }
