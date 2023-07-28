@@ -1,4 +1,8 @@
  
+/* html{
+    scroll-behavior: smooth;
+} */
+
 .sec1-div{
     height: 800px;
     
@@ -166,14 +170,15 @@ h3{
     justify-content: center; */
     flex-shrink: 0;
     color: var(--blue-background, #030d18);
-    text-align: center;
+     text-align: center;
     font-family: DM Sans;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 75px */
     /* margin-left: 300px; */
-    margin-top: 100px;
+    margin-top: 100px; 
+
 }
 
 .imgdiv{
@@ -181,6 +186,8 @@ h3{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+
 
 
 .sec-2img{
@@ -192,6 +199,11 @@ h3{
     flex-shrink: 0;
     border-radius: 10px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.sec-2img:hover{
+    width: 320px;
+    height: 220px ;
 }
 
 .pdiv{
